@@ -31,7 +31,7 @@ Installer [Docker](https://www.docker.com)
 ## INSTALLATION
 
 ```
-docker run -ti --rm --name whatweb alexandreoda/whatweb
+docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb
 ```
 
 
