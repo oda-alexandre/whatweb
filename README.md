@@ -1,11 +1,11 @@
 # WHATWEB
 
-![whatweb](https://raw.githubusercontent.com/oda-alexandre/whatweb/master/img/logo-whatweb.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/whatweb/master/img/logo-docker.png)
+[![dockeri.co](https://dockeri.co/image/alexandreoda/whatweb)](https://hub.docker.com/r/alexandreoda/whatweb)
 
 
 ## INDEX
 
-- [Build Docker](#BUILD)
+- [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
 - [Prerequis](#PREREQUIS)
 - [Installation](#INSTALLATION)
@@ -13,14 +13,21 @@
 - [License](#LICENSE)
 
 
-## BUILD DOCKER
+## BADGES
 
-[![whatweb docker build](https://img.shields.io/docker/build/alexandreoda/whatweb.svg)](https://hub.docker.com/r/alexandreoda/whatweb)
+[![version](https://images.microbadger.com/badges/version/alexandreoda/whatweb.svg)](https://microbadger.com/images/alexandreoda/whatweb)
+[![size](https://images.microbadger.com/badges/image/alexandreoda/whatweb.svg)](https://microbadger.com/images/alexandreoda/whatweb")
+[![build](https://img.shields.io/docker/build/alexandreoda/whatweb.svg)](https://hub.docker.com/r/alexandreoda/whatweb)
+[![automated](https://img.shields.io/docker/automated/alexandreoda/whatweb.svg)](https://hub.docker.com/r/alexandreoda/whatweb)
 
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [whatweb](https://www.whatweb.net/) pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/whatweb/) public.
+Ce repository contient le fichier Dockerfile de
+
+- [whatweb](https://www.whatweb.net/)
+
+Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/whatweb)
 
 
 ## PREREQUIS
