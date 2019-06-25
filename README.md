@@ -1,7 +1,5 @@
 # WHATWEB
 
-[![dockeri.co](https://dockeri.co/image/alexandreoda/whatweb)](https://hub.docker.com/r/alexandreoda/whatweb)
-
 
 ## INDEX
 
@@ -15,10 +13,7 @@
 
 ## BADGES
 
-[![version](https://images.microbadger.com/badges/version/alexandreoda/whatweb.svg)](https://microbadger.com/images/alexandreoda/whatweb)
-[![size](https://images.microbadger.com/badges/image/alexandreoda/whatweb.svg)](https://microbadger.com/images/alexandreoda/whatweb")
-[![build](https://img.shields.io/docker/build/alexandreoda/whatweb.svg)](https://hub.docker.com/r/alexandreoda/whatweb)
-[![automated](https://img.shields.io/docker/automated/alexandreoda/whatweb.svg)](https://hub.docker.com/r/alexandreoda/whatweb)
+[![pipeline status](https://gitlab.com/oda-alexandre/whatweb/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/whatweb/commits/master)
 
 
 ## INTRODUCTION
