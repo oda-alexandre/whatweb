@@ -5,9 +5,9 @@
 
 - [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
-- [Prerequis](#PREREQUIS)
-- [Installation](#INSTALLATION)
-- [Utilisation](#UTILISATION)
+- [Prerequisites](#PREREQUISITESITES)
+- [Install](#INSTALL)
+- [Use](#USE)
 - [License](#LICENSE)
 
 
@@ -18,28 +18,34 @@
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de
+Docker image of :
 
 - [whatweb](https://www.whatweb.net/)
 
-Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/whatweb)
+Continuous integration on :
+
+- [gitlab](https://gitlab.com/oda-alexandre/whatweb/pipelines)
+
+Automatically updated on :
+
+- [docker hub public](https://hub.docker.com/r/alexandreoda/whatweb)
 
 
-## PREREQUIS
+## PREREQUISITES
 
-Installer [docker](https://www.docker.com)
+Use [docker](https://www.docker.com)
 
 
-## INSTALLATION
+## INSTALL
 
 ```
 docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb
 ```
 
 
-## UTILISATION
+## USE
 
-Pour scanner un site copier/coller dans un terminal
+Pour scanner a site copy/paste  in  a terminal
 
 ```
 sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.1:8118 http://lesite.com
@@ -47,4 +53,4 @@ sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.
 
 ## LICENSE
 
-[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://github.com/oda-alexandre/whatweb/blob/master/LICENSE)
+[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://gitlab.com/oda-alexandre/whatweb/blob/master/LICENSE)
