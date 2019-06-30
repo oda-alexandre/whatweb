@@ -45,7 +45,7 @@ docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb
 
 ## USE
 
-Pour scanner a site copy/paste  in  a terminal
+For scann a site copy/paste  in  a terminal
 
 ```
 sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.1:8118 http://lesite.com
