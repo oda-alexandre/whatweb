@@ -1,13 +1,17 @@
 # WHATWEB
 
+<img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904487/unnamed.png" width="200" height="200"/>
+
+
 ## INDEX
 
-- [Badges](#BADGES)
-- [Introduction](#INTRODUCTION)
-- [Prerequisites](#PREREQUISITESITES)
-- [Install](#INSTALL)
-- [Use](#USE)
-- [License](#LICENSE)
+- [WHATWEB](#whatweb)
+  - [INDEX](#index)
+  - [BADGES](#badges)
+  - [INTRODUCTION](#introduction)
+  - [PREREQUISITES](#prerequisites)
+  - [INSTALL](#install)
+  - [LICENSE](#license)
 
 ## BADGES
 
