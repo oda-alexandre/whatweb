@@ -1,10 +1,9 @@
 FROM debian:stretch-slim
 
-LABEL authors https://www.oda-alexandre.com/
+LABEL authors https://www.oda-alexandre.com
 
 ENV USER whatweb
 ENV HOME /home/${USER}
-ENV LOCALES fr_FR.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN echo -e '\033[36;1m ******* INSTALL PACKAGES ******** \033[0m' && \
@@ -15,9 +14,6 @@ RUN echo -e '\033[36;1m ******* INSTALL PACKAGES ******** \033[0m' && \
   privoxy \
   whatweb
 
-RUN echo -e '\033[36;1m ******* CHANGE LOCALES ******** \033[0m' && \
-  locale-gen ${LOCALES}
-  
 RUN echo -e '\033[36;1m ******* ADD USER ******** \033[0m' && \
   useradd -d ${HOME} -m ${USER} && \
   passwd -d ${USER} && \
