@@ -8,14 +8,22 @@
 - [WHATWEB](#whatweb)
   - [INDEX](#index)
   - [BADGES](#badges)
+  - [FIRST UPDATE](#first-update)
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
   - [LICENSE](#license)
 
+
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/whatweb/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/whatweb/commits/master)
+
+
+## FIRST UPDATE
+
+Date: 01-01-01
+
 
 ## INTRODUCTION
 
@@ -31,19 +39,23 @@ Automatically updated on :
 
 - [docker hub public](https://hub.docker.com/r/alexandreoda/whatweb)
 
+
 ## PREREQUISITES
 
 Use [docker](https://www.docker.com)
+
 
 ## INSTALL
 
 ```docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb```
 
+
 ## USE
 
-For scann a site copy/paste  in  a terminal
+For scann a site copy/paste in a terminal
 
-```sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.1:8118 http://lesite.com```
+```sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.1:8118 http://siteweb.com```
+
 
 ## LICENSE
 
