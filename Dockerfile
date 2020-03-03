@@ -9,7 +9,6 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN echo -e '\033[36;1m ******* INSTALL PACKAGES ******** \033[0m' && \
   apt-get update && apt-get install --no-install-recommends -y \
   sudo \
-  locales \
   tor \
   privoxy \
   whatweb
