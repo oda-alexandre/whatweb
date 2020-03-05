@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  whatweb:
+    container_name: whatweb
+    image: alexandreoda/whatweb
+    restart: "no"
+    privileged: false
+    volumes:
+      - "${HOME}:/home/whatweb"
