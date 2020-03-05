@@ -10,6 +10,8 @@
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
+    - [DOCKER RUN](#docker-run)
+    - [DOCKER COMPOSE](#docker-compose)
   - [LICENSE](#license)
 
 ## BADGES
@@ -24,7 +26,7 @@ Docker image of :
 
 Continuous integration on :
 
-- [gitlab](https://gitlab.com/oda-alexandre/whatweb/pipelines)
+- [gitlab pipelines](https://gitlab.com/oda-alexandre/whatweb/pipelines)
 
 Automatically updated on :
 
@@ -36,13 +38,26 @@ Use [docker](https://www.docker.com)
 
 ## INSTALL
 
-```docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb```
+### DOCKER RUN
 
-## USE
+```\
+docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb
+```
 
-For scann a site copy/paste in a terminal
+### DOCKER COMPOSE
 
-```sudo service tor start && sudo service privoxy start && whatweb --proxy 127.0.0.1:8118 http://siteweb.com```
+```yml
+version: "3.7"
+
+services:
+  whatweb:
+    container_name: whatweb
+    image: alexandreoda/whatweb
+    restart: "no"
+    privileged: false
+    volumes:
+      - "${HOME}:/home/whatweb"
+```
 
 ## LICENSE
 
