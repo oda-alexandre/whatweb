@@ -41,7 +41,10 @@ Use [docker](https://www.docker.com)
 ### DOCKER RUN
 
 ```\
-docker run -ti --rm --name whatweb -v ${HOME}:/home/whatweb alexandreoda/whatweb
+docker run -ti --rm \
+--name whatweb \
+-v ${HOME}:/home/whatweb \
+alexandreoda/whatweb
 ```
 
 ### DOCKER COMPOSE
